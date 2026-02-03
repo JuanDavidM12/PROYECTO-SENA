@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift Condensed;
+  }
+
+  
+  /* ENCABEZADO SUPERIOR */
+  .encabezado {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: white;
+    position: relative;
+    width: 100%;
+  }
+  
+  .encabezado img {
+    height: 50px;
+  }
+  
+  .menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .menu {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  /* Iconos redes sociales */
+  .encabezado i {
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* CUERPO PRINCIPAL */
+  .fondo {
+    padding: 40px 20px;
+    min-height: 100vh;
+    backdrop-filter: brightness(0.9);
+  }
+  
+  /* Logo central */
+  .logo-nook {
+    display: block;
+    margin: 0 auto 30px;
+  }
+  
+  /* SECCIÓN BOTONES CON SLOGAN */
+  .botones {
+    background-color: #1b1f3b;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .botones h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn-menu {
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
